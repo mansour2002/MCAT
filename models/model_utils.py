@@ -112,6 +112,7 @@ def Reg_Block(dim1, dim2, dropout=0.25):
             nn.Dropout(p=dropout, inplace=False))
 
 
+
 class Attn_Net_Gated(nn.Module):
     def __init__(self, L = 1024, D = 256, dropout = False, n_classes = 1):
         r"""
